@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script scr="script.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Strong Password Generator</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Strong Password Generator</h1>
+		<h3 class="Pass" name="PassDis">Password</h3>
+		<form class="form">
+			<div class="characters">
+			<label for="characters">Number of characters</label>
+			<input type="number" name="characters" min="16" value="16" max="40">
+		</div>
+		<label for "addUC">Add Uppercase</label>
+		<input type="checkbox" name="addUC">
+		<label for "addLC">Add Lowercase</label>
+		<input type="checkbox" name="addLC">
+		<label for "addS">Add Symbols</label>
+		<input type="checkbox" name="addS">
+		<button type="submit" class="button">Generate Password</button>
+		</form>
+	</div>
+</body>
+</html>

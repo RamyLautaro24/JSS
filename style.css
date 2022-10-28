@@ -1,0 +1,58 @@
+body {
+	background-color:	#000000;
+	color: white;
+	min-height: 100vh;
+	margin: 0;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+	background-color:		#0000FF;
+	padding: 3rem;
+	border-radius: 1rem;
+	border: 2px solid white;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+label{
+font-weight: bold;
+}
+
+.Pass{
+background-color: white;
+color: black;
+padding: 1rem;
+border: 1px solid grey;
+height: 2rem;
+width: 350px;
+display: flex;
+justify-content: center;
+align-items: center;
+word-break: break-all;
+border-radius: .5rem;
+}
+
+.form{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-row-gap: 1rem;
+}
+
+.button{
+	grid-column: span 2;
+	background-color: red;
+	border: 2px solid white;
+	color: white;
+	padding: .5rem 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 1rem;
+}
