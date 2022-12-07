@@ -26,11 +26,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             header("Location: session.php");
             exit;
         } else {
-            header("Location: session.php");
+            header("Location: invalidlogin.html");
             exit;
         }
     } else {
-        header("Location: randompassword.html");
+        header("Location: invalidlogin.html");
     }
 
     $is_invalid = true;
